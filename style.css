@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 92px;
+    background-color: rgb(39, 39, 79);
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: aqua;
+    font-size: 1.04rem;
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 30px 15px 30 px 0;
+}
+
+.home-sci a:hover {
+    background: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 20px #0ef;
+}
+
+.btn-box {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-box:hover {
+    box-shadow: 0 0 5px cyan,
+        0 0 25px cyan, 0 0 50px cyan,
+        0 0 100px cyan, 0 0 200px cyan;
+}
+
+.rightsection img:hover {
+    box-shadow: 0 0 5px rgb(62, 36, 193),
+        0 0 25px rgb(54, 33, 174), 0 0 50px rgb(70, 28, 184),
+        0 0 100px rgb(43, 26, 169), 0 0 200px rgb(70, 33, 163);
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    width: 34px;
+    font-size: 3rem;
+}
+
+.rightsection img {
+    width: 80%;
+    margin: 114px;
+}
+
+h2 {
+    color: #6900b8f7;
+}
+
+.purple {
+    color: blueviolet;
+}
+
+#element {
+    color: blueviolet;
+}
+
+#img {
+    width: 89%;
+    height: 97%;
+    object-fit: contain;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.about-img img {
+    max-width: 630px;
+    height: auto;
+    width: 40%;
+    border-radius: 8px;
+    margin: 97px 357px;
+}
+
+.about-img img:hover {
+    box-shadow: 0 0 5px rgb(62, 36, 193),
+        0 0 25px rgb(54, 33, 174), 0 0 50px rgb(70, 28, 184),
+        0 0 100px rgb(43, 26, 169), 0 0 200px rgb(70, 33, 163);
+}
+
+.about-text h2 {
+    font-size: 60px;
+}
+
+.about-text h2 span {
+    color: #0ef;
+}
+
+.about-text p {
+    height: 270px;
+    width: 74%;
+}
+
+/* New Sections for Experience, Projects, and Skills */
+.section {
+    padding: 30px 0;
+    margin: 0 10%;
+}
+
+.section h1 {
+    font-size: 50px;
+    color: #6c00bd;
+}
+
+.section h1 span {
+    color: #0ef;
+}
+
+.section-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.section-content div {
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.section-content div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.section-content div p {
+    color: white;
+    margin-top: 15px;
+}
+
+.section-content div:hover {
+    background-color: #2a23b6;
+    transform: translateY(-10px);
+}
+
+#services {
+    padding: 30px 0;
+    margin: 0 10%;
+}
+
+.services-list h2 {
+    color: white;
+}
+
+.container h1 {
+    font-size: 50px;
+    color: #6c00bd;
+}
+
+.container h1 span {
+    color: #0ef;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.services-list div {
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.services-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.services-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.services-list div a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.services-list div:hover {
+    background-color: #2a23b6;
+    transform: translateY(-10px);
+}
+
+/* Student Details Section */
+.head {
+    font-size: 3rem;
+    margin: 30px 203px;
+}
+
+#Contact {
+    margin-left: 10%;
+}
+
+.manthru p i {
+    color: #ff004f;
+    margin: auto;
+    margin-top: 23px;
+    font-size: 30px;
+}
+
+
